@@ -3,3 +3,4 @@ This is a collection of small exercises and examples for use in the classroom or
 
 ## The Exercises
   - [hours-in-a-year](hours-in-a-year.md), adapted from Chris Pine's _Learn to Program_.
+  - [calculator](calculator.md)
