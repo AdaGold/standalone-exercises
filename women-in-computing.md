@@ -10,7 +10,6 @@ _in no particular order_
 - Megan Smith
 - Ursula Burns
 - Duy-Loan Le
-- Ellen Ochoa
 - Katherine Johnson
 - Margaret Hamilton
 - Grace Hopper
