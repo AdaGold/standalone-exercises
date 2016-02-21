@@ -6,3 +6,4 @@ This is a collection of small exercises and examples for use in the classroom or
 - [calculator](calculator.md)
 - [significant women in computing history](women-in-computing.md)
 - [random menu generator](random-menu-generator.md), shamelessly stolen from Kari.
+- [fancify your baby dragon](fancify-baby-dragon.md)
