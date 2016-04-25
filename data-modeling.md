@@ -1,7 +1,9 @@
 # Data Modeling
 __Instructions__: With your chair pair, read the requirements for each of the headings below. Discuss the models, attributes, and relationships that would be necessary in order for all the interactions described to be possible.
 
-Describe your _data model_ using an ERD diagram on paper. Be sure to indicate table names, column names & datatypes, primary and foreign keys, and relationships between tables in your diagram. Be prepared to discuss your diagrams and decisions at the end of the exercise.
+Describe your _data model_ using an ERD on paper. Be sure to indicate table names, column names & datatypes, primary and foreign keys, and relationships between tables in your diagram. Be prepared to discuss your diagrams and decisions at the end of the exercise.
+
+Use [Crow's Foot Notation](resources/ERD_Relationship_Symbols_Quick_Reference.pdf) to create your ERD.
 
 ### Twitter
 We are gonna do this one together.
