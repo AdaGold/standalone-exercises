@@ -1,6 +1,12 @@
 # Random Menu Generator
 Create a program that runs from the Terminal that will create a random menu based on several items that you determine.
 
+## Learning Goals
+- Using the text editor to write code
+- Using the terminal to run code
+- Creating arrays
+- Using at least one iterator
+
 ## Baseline
 Come up with the three arrays of ten items each. Each list should be a different type of food or descriptor for that food.
 
