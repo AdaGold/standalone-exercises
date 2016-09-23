@@ -20,7 +20,8 @@ Assignments will have
 
 Teachers will have
 -  The teacher name
--  The teacher user-name
+-  The teacher user-name  
+
 Marks will track
 -  The Assignment
 -  The Student for which the mark was given
