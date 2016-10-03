@@ -1,4 +1,4 @@
-# Practice with ERB Diagrams & Entity Relationships in Rails
+# Practice with Entity Relationships
 ## Setup
 We are setting up a gradebook for the Seattle Public Schools (not really, but bare with me).  
 The gradebook will have students, classes, assignments, teachers and marks.  
