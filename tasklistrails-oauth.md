@@ -21,8 +21,7 @@ Following the steps in the Textbook curriculum, add oAuth to your TaskListRails 
 **You Must:**
 -  Ensure that users who are not authenticated should see a welcome message and a link to authenticate.
 -  Ensure that Users who are authenticated will see the normal Tasklist page.  
--  Build Automated Tests to ensure this works
-	- Tests on the user model, SessionsController & TasksController.
+-  Build Automated Tests on the User Model.
 
 
 ## Phase 2 Modifying The Task Model & Controller
