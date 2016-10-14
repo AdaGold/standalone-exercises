@@ -33,7 +33,7 @@ Following the steps in the Textbook curriculum, add oAuth to your TaskListRails 
 -  Modify the new and create actions for the task controller so that the new task created will belong to the current user and that unauthenticated users cannot create tasks and must instead be redirected to login.  
 
 
-## Phase 4 - Optional
+## Phase 3 - Optional
 Do some research into how to use Google or another oAuth provider for authentication and use that provider.   
 
 ## Resources
