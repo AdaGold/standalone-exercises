@@ -5,7 +5,6 @@
 - Practice using Session Variables to track a user across multiple Http requests.  
 - Create an interactive program
 - Use methods to encapsulate functionality
-- Use a loop to ensure expected user input
 
 ## Exercise Description
 Our TaskList web app was a wonderful starter app, but it can only make one list.  In this assignment you will modify your TaskList so that it can function for multiple users, each with their own TaskList.
