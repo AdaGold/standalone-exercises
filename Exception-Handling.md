@@ -228,7 +228,7 @@ So you could rewrite the Task Controller's create method as:
         end
         flash[:notice] = msg
       end
-    rescue Exception => e
+    rescue
       flash[:notice] = "The task was unable to be saved."
       Rails.logger.error "The task #{@task} was unable to be saved with error e.message."
     end
@@ -238,7 +238,7 @@ So you could rewrite the Task Controller's create method as:
   end
 ```
 
-This has a couple of advantages, if the save fails due to a validation error, then the user is notified and the program continues as normal.  If there is an exceptional circumstance, something wrong with the database then an exception occurs and the user is notified, but you also can log the error to the Rails log.  
+This has a couple of advantages, if the save fails due to a validation error, then the user is notified and the program continues as normal.  If there is an exceptional circumstance, something wrong with the database or a similar error then an exception occurs and the user is notified, but you also can log the error to the Rails log.  
 
 So why do save!, create! and update! exist?  Well because not everyone agrees and Ruby developers do try to make everyone happy.  
 
