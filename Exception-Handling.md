@@ -115,11 +115,58 @@ end
 ```
 The method `divide` here will generate an exception when it tries to divide 10 by zero.  The exception is not "caught" in the method so ruby leaves the method and falls back to the caller of the method, which does have a rescue block to catch the `ZeroDivisionError`.  
 
+If the rescue block was missing the resulting error message would be:
 
 ```bash
-$  ruby example.rb
-Attempted to divide by zero
+method_exception_example.rb:3:in `/': divided by 0 (ZeroDivisionError)
+	from method_exception_example.rb:3:in `divide'
+	from method_exception_example.rb:10:in `<main>'
 ```
+
+This is the result of the call stack.  The Error first occurs at line 3 in the 'divide' method (see above).  When the block is not "rescued," Ruby leaves the divide method and falls back to the caller of the method, and so on until it reaches the "main" program and exits.  Each line of the result, called a "backtrace," shows the path of execution in reverse order.  
+
+So in the following example:
+
+```ruby
+def quotient_and_remainer dividend, divisor
+  answer = [dividend / divisor]
+  answer << dividend % divisor
+  answer
+end
+
+def mystery(num)
+  answer = []
+
+  (0...9).each do |i|
+    answer << quotient_and_remainer(num, i)
+  end
+  answer
+end
+
+begin
+  puts "The Remainders are #{mystery(100)}"
+end
+```
+
+1.  Ruby Starts by calling the `mystery` method which starts a loop with values from 0 to 9 (inclusive).  
+2.  It then calls the `quotient_and_remainer` method with 100 & 0 as arguments.  
+3.  Inside the quotient_and_remainder method it has a divide_by_zero error.
+4.  Since the error is not rescued in `quotient_and_remainer` Ruby falls back to mystery.
+5.  Since the error is not rescued in `mystery` Ruby falls back to the main program and exits with an error.
+
+You can see the results in the error message:
+
+```bash
+multimethod.rb:2:in `/': divided by 0 (ZeroDivisionError)
+	from multimethod.rb:2:in `quotient_and_remainer'
+	from multimethod.rb:11:in `block in mystery'
+	from multimethod.rb:10:in `each'
+	from multimethod.rb:10:in `mystery'
+	from multimethod.rb:17:in `<main>'
+```
+
+As you can see the error messages display in order as Ruby falls back from where it encountered the error, moving, "through the stack," unwinding the method calls that lead to the error.  
+
 
 
 #### Exception Handling in Rails
