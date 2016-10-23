@@ -149,8 +149,8 @@ end
 ```
 
 1.  Ruby Starts by calling the `mystery` method which starts a loop with values from 0 to 9 (inclusive).  
-2.  It then calls the `quotient_and_remainer` method with 100 & 0 as arguments.  
-3.  Inside the quotient_and_remainder method it has a divide_by_zero error.
+2.  It then calls the `quotient_and__remainer` method with 100 & 0 as arguments.  
+3.  Inside the quotient\_and\_remainder method it has a divide\_by\_zero error.
 4.  Since the error is not rescued in `quotient_and_remainer` Ruby falls back to mystery.
 5.  Since the error is not rescued in `mystery` Ruby falls back to the main program and exits with an error.
 
@@ -184,19 +184,15 @@ These methods trigger exceptions when validations fail or the database is unavai
 
     begin
       @task.save!
-    rescue ActiveRecord::RecordInvalid => e
-      msg = ""
-      e.record.errors.each do |field, message |
-        msg += "#{field.to_s.capitalize}: #{message}"
-      end
-      flash[:notice] = msg
+    rescue ActiveRecord::RecordInvalid
+      flash[:notice] = "Cannot Save the Task."
     ensure
       redirect_to tasks_new_path
     end
   end
 ```
 
-However while this is simple it isn't good practice.  It's considered best practice to [**not use exceptions for expected outcomes**](https://robots.thoughtbot.com/save-bang-your-head-active-record-will-drive-you-mad).  Since we expect users to give us invalid input on a regular basis, the above example does not qualify.  This leaves us with the question:  
+However while this can be done it isn't good practice.  It's considered best practice to [**not use exceptions for expected outcomes**](https://robots.thoughtbot.com/save-bang-your-head-active-record-will-drive-you-mad).  Since we expect users to give us invalid input on a regular basis, the above example does not qualify.  This leaves us with the question:  
 
 ### Why Would We Use Rescue?
 
