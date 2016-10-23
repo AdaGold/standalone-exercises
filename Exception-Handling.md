@@ -198,14 +198,6 @@ However while this can be done it isn't good practice.  It's considered best pra
 
 There are a lot of [differing opinions](https://www.sitepoint.com/ruby-error-handling-beyond-basics/) on when and why you should implement exception handling in your code.  The consensus seems to be that exception handling should be for *exceptional* circumstances.  In other words you use Exception Handling (rescue) for abnormal events, and regular if statements for normal occurrences like validation errors.
 
-You can think of your program errors falling into two categories:
--  Things you expect to happen regularly, like:
-	- Users putting invalid items into forms.
-	- Users trying to access things they shouldn't have access to.
--  Errors that happen very rarely like:
-	- Database connection errors
-	- API failures
-
 ##### So you would use If Statements for:
 - Invalid user input (validation errors on Active Records Etc).  
 - Users trying to access resources they do not have permission for.
