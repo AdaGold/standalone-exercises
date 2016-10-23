@@ -56,7 +56,7 @@ basic_exception_without_rescue.rb:4:in `/': divided by 0 (ZeroDivisionError)
 
 ### Rescuing Specific Types of Exceptions
 
-There are a number of kinds of exceptions both for [regular'ol Ruby](http://blog.nicksieger.com/articles/2006/09/06/rubys-exception-hierarchy/) & [Rails](http://stackoverflow.com/questions/6521544/getting-a-list-of-existing-rails-error-classes-for-re-use-inheritance).  Some types of errors we probably don't want to try to rescue because they are irrecoverable or so unexpected that we shouldn't write code to recover from them.  We can however set up specific blocks to recover from specific types of errors that we can and want to recover from.  
+There are a number of kinds of exceptions both for [regular'ol Ruby](http://blog.nicksieger.com/articles/2006/09/06/rubys-exception-hierarchy/) & [Rails](https://ruby-doc.org/core-2.3.1/Exception.html).  Some types of errors we probably don't want to try to rescue because they are irrecoverable or so unexpected that we shouldn't write code to recover from them.  We can however set up specific blocks to recover from specific types of errors that we can and want to recover from.  Generally recoverable errors inherit from `StandardError` and for this reason when you place a rescue block without specifying the exception class Ruby will only handle exceptions inheriting from StandardError.  
 
 The syntax will look like this:
 
@@ -70,7 +70,7 @@ rescue <some kind of exception>
 rescue <some other kind of exception>
   # Code to recover from another type of exception
 
-else 
+rescue
   # other exceptions handled here
 
 ensure
