@@ -230,7 +230,7 @@ So you could rewrite the Task Controller's create method as:
       end
     rescue
       flash[:notice] = "The task was unable to be saved."
-      Rails.logger.error "The task #{@task} was unable to be saved with error e.message."
+      Rails.logger.error "The task #{@task} was unable to be saved with an error."
     end
     
     redirect_to tasks_new_path
