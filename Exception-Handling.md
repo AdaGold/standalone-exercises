@@ -243,7 +243,7 @@ This has a couple of advantages, if the save fails due to a validation error, th
 So why do save!, create! and update! exist?  Well because not everyone agrees and Ruby developers do try to make everyone happy.  
 
 
-When you enter your internship you will begin to engage in something called *defensive programming*.  In [defensive programming](https://en.wikipedia.org/wiki/Defensive_programming) you write code to gracefully handle under unforeseen circumstances.  The idea is that you 
+When you enter your internship you will begin to engage in something called *defensive programming*.  In [defensive programming](https://en.wikipedia.org/wiki/Defensive_programming) you write code to gracefully handle under unforeseen circumstances.  The idea is that you write code to try to catch all unforeseen circumstances. 
 
 
 ## Resources
