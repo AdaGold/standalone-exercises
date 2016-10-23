@@ -150,7 +150,7 @@ end
 
 1.  Ruby Starts by calling the `mystery` method which starts a loop with values from 0 to 9 (inclusive).  
 2.  It then calls the `quotient_and__remainer` method with 100 & 0 as arguments.  
-3.  Inside the quotient\_and\_remainder method it has a divide\_by\_zero error.
+3.  Inside the `quotient_and_remainder` method it has a `ZeroDivisionError` error.
 4.  Since the error is not rescued in `quotient_and_remainer` Ruby falls back to mystery.
 5.  Since the error is not rescued in `mystery` Ruby falls back to the main program and exits with an error.
 
