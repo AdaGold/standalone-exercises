@@ -16,6 +16,8 @@ Let's use Brew! `$ brew install sqlite3`
 
 In the resources folder you will find a file named: `pokedex.sqlite`  This is our database file.  You can access it in terminal with the command:
 
+You can download the [pokedex.sqlite file here](resources/pokedex.sqlite)
+
 ```bash
 $  cd ~/path/to/resources
 $  sqlite3 pokedex.sqlite
