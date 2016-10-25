@@ -106,9 +106,9 @@ So the above SELECT would sort the results by the base_experience in descending 
 To create a table you use the CREATE TABLE command.
 ```sql
 CREATE TABLE <tablename> (
-	<rowname>	<datatype> [options],
-	<rowname>	<datatype> [options],
-	<rowname>	<datatype> [options]
+	<columnname>	<datatype> [options],
+	<columnname>	<datatype> [options],
+	<columnname>	<datatype> [options]
 	);		
 ```
 So for example:
@@ -235,7 +235,7 @@ SELECT pokemon.english_name, pokemon.height,
         abilities.identifier
         FROM pokemon
         JOIN pokemon_abilities ON 	pokemon_abilities.pokemon_id = pokemon.id
-        JOIN abilities on abilities.id = pokemon_abilities.ability_id
+        JOIN abilities ON abilities.id = pokemon_abilities.ability_id
 		WHERE pokemon.english_name = 'Ivysaur';
 ```
 
