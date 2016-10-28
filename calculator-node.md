@@ -1,13 +1,16 @@
 # Calculator-Node Exercise
 Build a calculator command line interface (CLI) that allows a user to perform arithmetic operations.
 
+## Learning Goals
+- Create an application using JavaScript syntax
+
 ## Baseline
-- Create and enter a new directory in `exercises`:
-  + `$ cd ~/C5/exercises`
+- Create and enter a new directory:
   + `$ mkdir calculator-node && cd calculator-node`
 - Install `prompt` with npm. This package allows for gathering input from a user.
   + `$ npm install prompt`
   + When it's done, you should now have a directory called `node_modules`
+  + **Note** Learning `prompt` is not a specific learning goal, just a tool we're going to use for this application
 - Create the file that will contain your program's code: `$ touch calculator.js`
 - Open `calculator.js` in your editor and paste this code into it:
   ```javascript
