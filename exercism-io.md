@@ -160,4 +160,4 @@ So work to create Leap Year program to satisfy the tests and run.
 ```bash
 $  jasmine-node .
 ```
-Until you satisfy the tests. For this initial problem if you get stuck you can check [here](http://exercism.io/submissions/b33e15ba735244bbad77b1d604af0115)
+Until you satisfy the tests. For this initial problem if you get stuck you can check [here](http://exercism.io/submissions/95a82aaa98b3417c85c5dbe36044d79f)
