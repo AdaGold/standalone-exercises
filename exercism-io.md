@@ -5,14 +5,14 @@
 Exercism.io is a set of mini-quests designed to introduce you to a new language, in this case Javascript.  It will present you with problems and a set of test suites to verify that your solution is correct.  Learning by TDD!  It's a great way to explore the language.
 
 ## Setup
+<!--
+//To install Exercism first install Nodejs (you may have this already installed.
 
-To install Exercism first install Nodejs (you may have this already installed.
-
-```bash
-$  brew install node
-```
-
-Then install Jasmine, which is a testing suite (like Minitest) for Javascript.
+# ```bash
+#//$  brew install node
+#//```
+-->
+Install Jasmine, which is a testing suite (like Minitest) for Javascript.
 
 ```bash
 $  npm install jasmine-node -g
@@ -160,4 +160,10 @@ So work to create Leap Year program to satisfy the tests and run.
 ```bash
 $  jasmine-node .
 ```
-Until you satisfy the tests. For this initial problem if you get stuck you can check [here](http://exercism.io/submissions/95a82aaa98b3417c85c5dbe36044d79f)
+Until you satisfy the tests. 
+
+#### Notice some tests are skipped!
+Once you do, edit the test cases and change the `xit` cases to `it`.  Those test cases have been skipped initially.
+
+
+For this initial problem if you get stuck you can check [here](http://exercism.io/submissions/95a82aaa98b3417c85c5dbe36044d79f)
