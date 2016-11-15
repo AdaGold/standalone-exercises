@@ -15,5 +15,5 @@ console.log(reading); // "Ada says: 'Try again later.'"
 ## HINT:
 Creating a random number in JS is much harder than in Ruby, so we've provided that to you here:
 ```javascript
-Math.floor(Math.random() * favorites.length)
+Math.floor(Math.random() * fortunes.length)
 ```
