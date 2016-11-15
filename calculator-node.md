@@ -3,8 +3,8 @@ Build a calculator command line interface (CLI) that allows a user to perform ar
 
 ## Baseline
 - Create and enter a new directory in `exercises`:
-  + `$ cd ~/C5/exercises`
-  + `$ mkdir calculator-node && cd calculator-node`
+  + `$ cd ~/ADA/exercises`
+  + `$ mkdir calculator-js && cd calculator-js`
 - Install `prompt` with npm. This package allows for gathering input from a user.
   + `$ npm install prompt`
   + When it's done, you should now have a directory called `node_modules`
