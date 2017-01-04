@@ -41,6 +41,8 @@ Your generator should pull one item from each array you made in the baseline req
 |---	|---	|
 | Used 3 Different Arrays  	|  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	|
 | Generated random numbers to select each word.  	|   	|
+| Descriptive variable names used.  	|   	|
+| Neat readable code with consistent indentation  	|   	|
 | **Extras**  	|   	|
 | Ensuring no descriptive word is ever repeated  	|   	|
 | Allowing the user to determine how many items they would like to see  	|   	|
