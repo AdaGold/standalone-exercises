@@ -34,3 +34,14 @@ Your generator should pull one item from each array you made in the baseline req
 - Expand your solution to allow the user to determine how many items they'd like to see via user input.
   __Note:__ You will need to ensure that this user-chosen number of items is not larger than the number of items you have in your arrays.
 - Instead of using hardcoded or predefined arrays, make your program accept user input. This user input will be utilized to generate the menu items. You'll need to prompt for and store a varying number of entries for each food-type array.
+
+## What We're Looking For
+
+| Item  	| Feedback  	|
+|---	|---	|
+| Used 3 Different Arrays  	|  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	|
+| Generated random numbers to select each word.  	|   	|
+| **Extras**  	|   	|
+| Ensuring no descriptive word is ever repeated  	|   	|
+| Allowing the user to determine how many items they would like to see  	|   	|
+| Allow the user to enter the menu terms  	|   	|
