@@ -35,8 +35,8 @@ Without putting the code into Ruby or IRB predict the output and data-type of th
 1.  Output __________   Answer: _________
 
   ```ruby
-  stack_teacher = "Jamie"
-  queue_teacher = "Kari"
+  queue_teacher = "Jamie"
+  stack_teacher = "Kari"
   c7_teachers = stack_teacher + " " + queue_teacher
   c7_teachers
   ```
