@@ -100,6 +100,17 @@ list.first
 ```
 
 ```ruby
+list = ["Pikachu", "Bulbasaur", "Squirtle", "Charizard"]
+list[4]
+```
+
+```ruby
+list = ["Pikachu", "Bulbasaur", "Squirtle", "Charizard"]
+list[-1]
+```
+
+
+```ruby
 pikachu = {
 	name: "Pikachu",
 	type: :electric,
