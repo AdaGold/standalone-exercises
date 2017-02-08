@@ -7,7 +7,7 @@
 
 Without putting the code into Ruby or IRB predict the output and data-type of the following?
 
-1.  Output __________   Answer: _________  
+1.  Value __________   Data Type: _________  
 
   ```ruby
   num = 27
@@ -15,7 +15,7 @@ Without putting the code into Ruby or IRB predict the output and data-type of th
   num
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
 
   ```ruby
@@ -23,7 +23,7 @@ Without putting the code into Ruby or IRB predict the output and data-type of th
   num = num + num + 2
   num
   ```
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
 	 
   ```ruby
@@ -32,7 +32,7 @@ Without putting the code into Ruby or IRB predict the output and data-type of th
   num
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
   ```ruby
   queue_teacher = "Jamie"
@@ -41,7 +41,7 @@ Without putting the code into Ruby or IRB predict the output and data-type of th
   c7_teachers
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
   ```ruby
   num = 2
@@ -50,7 +50,7 @@ Without putting the code into Ruby or IRB predict the output and data-type of th
   num
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
   ```ruby
   num = 27
@@ -58,7 +58,7 @@ Without putting the code into Ruby or IRB predict the output and data-type of th
   answer
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
   ```ruby
   num = 100
@@ -68,7 +68,7 @@ Without putting the code into Ruby or IRB predict the output and data-type of th
   num
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
   ```ruby
   num = 100.0
@@ -78,7 +78,7 @@ Without putting the code into Ruby or IRB predict the output and data-type of th
   num
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
   ```ruby
   num = 5.0
@@ -86,63 +86,63 @@ Without putting the code into Ruby or IRB predict the output and data-type of th
   num = num / 2
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
   ```ruby
   answer = :dan
   answer
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
   ```ruby
   list = ["Pikachu", "Bulbasaur", "Squirtle", "Charizard"]
   list
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
   ```ruby
   list = ["Pikachu", "Bulbasaur", "Squirtle", "Charizard"]
   list[3]
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
   ```ruby
   list = ["Pikachu", "Bulbasaur", "Squirtle", "Charizard"]
   list[1]
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
   ```ruby
   list = ["Pikachu", "Bulbasaur", "Squirtle", "Charizard"]
   list.length
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
   ```ruby
   list = ["Pikachu", "Bulbasaur", "Squirtle", "Charizard"]
   list.first
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
   ```ruby
   list = ["Pikachu", "Bulbasaur", "Squirtle", "Charizard"]
   list[4]
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
   ```ruby
   list = ["Pikachu", "Bulbasaur", "Squirtle", "Charizard"]
   list[-1]
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
   ```ruby
   pikachu = {
@@ -156,7 +156,7 @@ Without putting the code into Ruby or IRB predict the output and data-type of th
   pikachu
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
   ```ruby
   pikachu = {
@@ -170,7 +170,7 @@ Without putting the code into Ruby or IRB predict the output and data-type of th
   pikachu[:name]
   ```
 
-1.  Output __________   Answer: _________
+1.  Value __________   Data Type: _________  
 
   ```ruby
   pikachu = {
