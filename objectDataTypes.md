@@ -149,8 +149,8 @@ Without putting the code into Ruby or IRB predict the output and data-type of th
 	  name: "Pikachu",
 	  type: :electric,
 	  species: "Mouse Pokemon",
-	  height: .41
-	  weight: 6.0
+	  height: 0.41,
+	  weight: 6.0,
 	  id: 25
   }
   pikachu
@@ -163,8 +163,8 @@ Without putting the code into Ruby or IRB predict the output and data-type of th
 	  name: "Pikachu",
 	  type: :electric,
 	  species: "Mouse Pokemon",
-	  height: .41
-	  weight: 6.0
+	  height: 0.41,
+	  weight: 6.0,
 	  id: 25
   }
   pikachu[:name]
@@ -174,12 +174,12 @@ Without putting the code into Ruby or IRB predict the output and data-type of th
 
   ```ruby
   pikachu = {
-	  name: "Pikachu",
-	  type: :electric,
-	  species: "Mouse Pokemon",
-	  height: .41
-	  weight: 6.0
-	  id: 25
+    name: "Pikachu",
+    type: :electric,
+    species: "Mouse Pokemon",
+    height: 0.41,
+    weight: 6.0,
+    id: 25
   }
   pikachu[:id]
   ```
