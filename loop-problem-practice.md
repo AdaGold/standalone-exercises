@@ -2,7 +2,7 @@
 
 ## Part 1
 
-For each of the following problems, write the code to solve the problem. **You should the `.each` method to solve each problem.**
+For each of the following problems, write the code to solve the problem. **You should use the `.each` method to solve each problem.**
 
 1. You are given an array of `String` objects, stored in a variable called `my_strings`. You want to use this array to create a new array of `Integer` objects, which represents the `length` of each string. We want to store the resulting array in a variable called `string_lengths`.
 <!-- MAP/COLLECT -->
