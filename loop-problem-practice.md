@@ -19,4 +19,4 @@ For each of the following problems, write the code to solve the problem. **You s
 ## Part 2
 
 1. For each question above, refactor your code to utilize methods. For each of the "given array" in the problem, make that a **parameter** that will be passed in to your method. Each result of the problem should be `return`ed.
-1. Write **test** for each of the problems above. You should have at least one _nominal case_ and one _edge case_ for each problem.
+1. Write **tests** for each of the problems above. You should have at least one _nominal case_ and one _edge case_ for each problem.
