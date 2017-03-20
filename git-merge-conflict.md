@@ -21,7 +21,19 @@ Before we can start putting the recipe together we need to make sure that everyo
 **Do not** push your changes to GitHub yet! If you're finished early with this step help your groupmates.
 
 ### Building the recipe
-Once everyone in your group has completed the baseline setup instructions above you're ready to start building the recipe together. There are a number of ways that your group can accomplish that, and you should discuss them to figure out which strategy to employ:
+Once everyone in your group has completed the baseline setup instructions above you're ready to start building the recipe together.
+
+#### General advice
+There are a few things to look out for when working through this activity:
+
+- The end result should be a real, usable recipe. The original recipe files were all complete works from various recipe websites online.
+- If you find that the result of one of your merges is missing critical ingredients or any numbered steps, you should go back and double check that you didn't lose any lines while resolving a merge conflict.
+- Your recipe scraps may have duplicate lines. We've added these in to more accurately portray the full range of potential merge conflicts. **Important**: you should get rid of any duplicate lines while merging.
+- There's no "right" way to do this activity, all of the strategies listed below are valid ways to build the recipe file.
+- Have fun!
+
+#### Collaboration strategies
+There are a number of ways that your group can collaborate to build the recipe file and you should discuss them to figure out which strategy to employ:
 
 - **Round robin**: This strategy involves direct coordination between everyone in the group, resulting in a strictly ordered merge sequence.
   - One at a time each person pushes their changes and resolves any merge conflicts.
@@ -43,12 +55,3 @@ Once everyone in your group has completed the baseline setup instructions above 
 Once your recipe file has been completed everyone should review it for completeness. Make sure that none of the lines from your scrap are missing from the final result.
 
 If everyone agrees that the recipe looks correct one person should submit a PR to the original carnival-recipes repo.
-
-### Advice
-There are a few things to look out for when working through this activity:
-
-- The end result should be a real, usable recipe. The original recipe files were all complete works from various recipe websites online.
-- If you find that the result of one of your merges is missing critical ingredients or any steps, you should go back and double check that you didn't lose any lines while resolving a merge conflict.
-- Your recipe scraps may have duplicate lines. We've added these in to more accurately portray the full range of potential merge conflicts -- you should get rid of any duplicates while merging.
-- There's no "right" way to do this activity, all of the merge strategies are valid ways to build the recipe file.
-- Have fun!
