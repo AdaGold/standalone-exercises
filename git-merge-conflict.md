@@ -40,18 +40,26 @@ There are a number of ways that your group can collaborate to build the recipe f
   - The next person in turn pulls those changes and pushes their own until everyone's changes have been pushed.
 - **Ad-hoc**: This approach relies the most upon Git's merge coordination capabilities to ensure that everyone's changes get merged in properly.
   - Essentially, everyone attempts to `git push` at once.
-  - The first person to get there doesn't have to do a merge, but everyone after that probably will.
+  - The first person to get there doesn't have to merge, but everyone after that probably will.
 - **Branched**: This approach is kind of a mix of the other two.
-  - Within your group split off into pairs.
-  - Both people in the pair create a branch _with the same name_. You can create a branch with `git checkout -b <branch name>`.
-  - Both people in the pair push their changes to the branch (`git push origin <branch name>`).
-  - Whoever ends up pushing second will have to merge in the other person's changes.
-  - After merging the pair's changes together, merge the result into the `master` branch:
-    - `git checkout master`
-    - `git merge <branch name>`
-  - Push the `master` branch up to GitHub.
-  - The first pair to complete this won't have to do any more merging, but the other two pairs will.
+  - It uses a more advanced feature of Git known as _branching_.
+  - Branching is generally considered the heart of a Git-based workflow and you'll have an opportunity to try it on a larger team project.
 
-Once your recipe file has been completed everyone should review it for completeness. Make sure that none of the lines from your scrap are missing from the final result.
+#### Recipe building process
+Not sure which strategy is best? That's understandable, so for this activity you'll follow this specific process:
 
-If everyone agrees that the recipe looks correct one person should submit a PR to the original carnival-recipes repo.
+1. Split your group into two teams of three.
+1. Both teams will use the _round robin_ strategy separately.
+    - Decide within each team the order for each person to push their changes.
+    - When you've got the order figured out wait for the other team to finish before proceeding.
+1. Both teams start pushing their changes simultaneously, kind of like the _ad-hoc_ strategy.
+    - **Remember**: Whoever on your team is pushing their changes must successfully finish that process (including fixing any merge conflicts!) before the next person can begin.
+    - Work with your fellow team members to resolve any merge conflicts.
+1. Once everyone's changes have been merged together, the group as a whole should review it for completeness.
+    - Make sure that none of the lines from your individual scrap are missing from the final result.
+    - If there are any fixes needed, pick one person in the group to make the necessary changes and commit them.
+1. When everyone agrees that the recipe looks correct _one_ person should submit a PR to the original carnival-recipes repo.
+1. Finally, debrief with your whole group about how things went.
+    - What went well? What didn't?
+    - Were there any merge conflicts that were particularly tricky to figure out?
+    - How could this process have been made easier?
