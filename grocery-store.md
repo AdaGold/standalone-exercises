@@ -11,9 +11,11 @@ Let's simulate a grocery store inventory system! We want to be able to keep trac
 ### Requirements
 
 **Overall**
+
 The grocery store inventory system needs to track the inventory of each product. If a product is "purchased" the quantity of that product should decrease. You need to figure out where to put this logic.
 
 **Grocery Store**
+
 At a minimum, each grocery store should:
 - have a name
 - store a collection of products
@@ -22,6 +24,7 @@ At a minimum, each grocery store should:
 - allow you to add new products
 
 **Product**
+
 At a minimum, each product should:
 - have unique fields that describe the product
 - include price logic which allows it to be discounted or full price
