@@ -49,8 +49,11 @@ At a minimum, each grocery store should:
 
 You should follow good TDD practices and maintain clean git hygiene as you work on this exercise! A nice workflow is as follows:
 - Think about the feature you want to implement
-- Write pseudocode, possibly on a whiteboard or with pen and paper, possibly including diagrams or drawings
-- Write tests that describe the behavior you plan to add
+- Write pseudocode, possibly on a whiteboard or with pen and paper, possibly including diagrams or drawings. Think about the following questions:
+  - What data (arguments, object state) does your method need to work?
+  - What is the result (return value, changes in object state) of having run your method?
+  - What weird situations might you encounter? Where do you think your method will change how it behaves?
+- Use the answers to the previous questions to write tests for the behavior you plan to add
 - Write code to make the tests pass
 - `git commit`
 
