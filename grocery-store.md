@@ -27,20 +27,23 @@ Mariya then finishes working through the remaining entries on the manifest, and 
 
 The grocery store inventory system needs to track the inventory of each product. If a product is "purchased" the quantity of that product should decrease. You need to figure out where to put this logic.
 
-**Grocery Store**
-
-At a minimum, each grocery store should:
-- have a name
-- store a collection of products
-- associate these products with the aisle they are in
-- find products in a specific aisle
-- allow you to add new products
-
 **Product**
 
 At a minimum, each product should:
 - have unique fields that describe the product
 - include price logic which allows it to be discounted or full price
+
+**Grocery Store**
+
+At a minimum, each grocery store should:
+- have a name
+- store a collection of products
+- keep track of which aisle each product is in
+- find products in a specific aisle
+- allow you to add new products
+- given a customer order (list of product IDs), be able to
+  - calculate the total price of the order
+  - calculate the total savings
 
 **Workflow**
 
