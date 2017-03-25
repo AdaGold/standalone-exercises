@@ -42,5 +42,14 @@ At a minimum, each product should:
 - have unique fields that describe the product
 - include price logic which allows it to be discounted or full price
 
+**Workflow**
+
+You should follow good TDD practices and maintain clean git hygiene as you work on this exercise! A nice workflow is as follows:
+- Think about the feature you want to implement
+- Write pseudocode, possibly on a whiteboard or with pen and paper, possibly including diagrams or drawings
+- Write tests that describe the behavior you plan to add
+- Write code to make the tests pass
+- `git commit`
+
 ### Optional
 Create a command-line interface for a user to interact with your grocery store. Allow users to interact with the grocery inventory system to do the operations above.
