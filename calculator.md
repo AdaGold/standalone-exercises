@@ -30,3 +30,18 @@ The program should use the input operation and two numbers to provide the result
 - Add support for the modulo operator (`10 % 3 = 1`)
 - Make your program know when it needs to return an _integer_ versus a _float_.
 - Add support for parentheticals, i.e. `10 / (5 + 5) = 1`.
+
+
+## What We're Looking For
+
+| Item  	| Feedback  	|
+|---	|---	|
+| Effectively reads information from the keyboard  	|  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	|
+| Reads in mathematical symbols and english terms as operators  	|   	|
+| Reads in mathematical symbols and english terms as operators  	|   	|
+| Descriptive variable names used.  	|   	|
+| Neat readable code with consistent indentation  	|   	|
+| **Extras**  	|   	|
+| Ensuring no descriptive word is ever repeated  	|   	|
+| Allowing the user to determine how many items they would like to see  	|   	|
+| Allow the user to enter the menu terms  	|   	|
