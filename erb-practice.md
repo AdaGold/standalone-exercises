@@ -35,6 +35,7 @@ Orders will have
 
 ## Exercise
 1. Draw what you think the Entity Relationships should look like in this example.
+  - In the ERD Diagram, include the data types of each field.
 2. Create the appropriate models in a sample Rails application make sure to have the appropriate belongs_to and has_many associations.
 
 Be ready to talk about your choices.
