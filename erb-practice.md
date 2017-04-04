@@ -2,7 +2,7 @@
 
 ## Setup
 
-We are setting up an online shopping system like Etsy (not really, but bare with me).  
+We are setting up an online shopping system like Etsy (not really, but bear with me).  
 
 
 The database will need to track:
