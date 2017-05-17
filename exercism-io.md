@@ -85,6 +85,11 @@ You can then input your key with:
 exercism configure --key=<YOUR_KEY_HERE>
 ```
 
+When you are ready to submit, enter the following command:
+```bash
+exercism submit <File-Name>
+```
+
 ## Getting Started - Leap Year
 
 Now fetch the leap_year assignment and take a look at the spec.
