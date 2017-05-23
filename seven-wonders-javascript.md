@@ -20,7 +20,7 @@ seven_wonders = [
   "Great Pyramids of Giza",
   "Hanging Gardens of Babylon",
   "Colossus of Rhodes",
-  "Lighthouse of Alexandria",
+  "Pharos of Alexandria",
   "Statue of Zeus at Olympia",
   "Temple of Artemis",
   "Mausoleum at Halicarnassus"
