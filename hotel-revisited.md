@@ -99,7 +99,7 @@ end
 
 #### Prompts
 
-Once you have read through the above code, add a file to your Hotel project called `design-activity.md`. In that file, please respond to the following prompts:
+Once you have read through the above code, add a file to your Hotel project called `design-activity.md`. This file will be submitted with the rest of this exercise. In that file, please respond to the following prompts:
 
 - What classes does each implementation include? Are the lists the same?
 - Write down a sentence to describe each class.
