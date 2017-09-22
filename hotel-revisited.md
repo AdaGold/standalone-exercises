@@ -104,12 +104,14 @@ Once you have read through the above code, add a file to your Hotel project call
 - What classes does each implementation include? Are the lists the same?
 - Write down a sentence to describe each class.
 - How do the classes relate to each other? It might be helpful to draw a diagram on a whiteboard or piece of paper.
-- What **data** does each class store? Are they different for the two implementations?
-- What **methods** does each class have? Are they different for the two implementations?
+- What **data** does each class store? How (if at all) does this differ between the two implementations?
+- What **methods** does each class have? How (if at all) does this differ between the two implementations?
 - Consider the `Order#total_price` method. In each implementation:
     - Is logic to compute the price delegated to "lower level" classes like `ShoppingCart` and `CartEntry`, or is it retained in `Order`?
     - Does `total_price` directly manipulate the instance variables of other classes?
+- If we decide items are cheaper if bought in bulk, how would this change the code? Which implementation is easier to modify?
 - Which implementation better adheres to the single responsibility principle?
+- Bonus question once you've read Metz ch. 3: Which implementation is more loosely coupled?
 
 Once you've responded to the prompts, `git add design-activity.md` and `git commit`!
 
@@ -124,7 +126,9 @@ Now that we've got you thinking about design, spend some time to revisit the cod
 
 ### Activity
 
-Identify one place in your Hotel project where you believe your design could be improved. Describe in `design-activity.md` what changes you would need to make to actualize that improvement, and why.
+Based on the answers to the above questions, identify one place in your Hotel project where a class takes on multiple roles, or directly modifies the attributes of another class. Describe in `design-activity.md` what changes you would need to make to improve this design, and how why the resulting design would be an improvement.
+
+If you need inspiration, remember that the [reference implementation](https://github.com/droberts-ada/hotel/tree/dpr/solution) exists.
 
 Then make the changes! Don't forget to take advantage of all the tests you wrote - if they're well structured, they should quickly inform you when your refactoring breaks something.
 
