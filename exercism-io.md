@@ -92,7 +92,7 @@ exercism submit <File-Name>
 
 ## Getting Started - Leap Year
 
-Now fetch the leap_year assignment and take a look at the spec.
+Now fetch the `leap` assignment and take a look at the spec.
 
 ```javascript
 var Year = require('./leap');
